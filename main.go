@@ -9,4 +9,5 @@ func main() {
 	defer db.SqlDB.Close()
 	router := conf.InitRouter()
 	router.Run(":8000")
+	//test
 }
